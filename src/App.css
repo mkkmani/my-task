@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+}
+
+.form-container {
+  width: 550px;
+  height: 100vh;
+  padding: 40px;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a171d;
+}
+
+.heading {
+  color: #f3aa4a;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.input-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f1f5f5;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  padding-left: 15px;
+  border: 0px;
+  margin-top: 15px;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  color: #131213;
+}
+
+.add-button {
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #f5f5f5;
+  background-color: #f3aa4d;
+  border: 0px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #131213;
+  padding: 15px;
+  padding-top: 80px;
+}
+
+.tags-heading {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.ul-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.tag-button {
+  border: 3px solid #f3aa4a;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  margin-right: 30px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bg-button {
+  border: 1px solid #f3aa4a;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  margin-right: 30px;
+  background-color: #f3aa4a;
+  cursor: pointer;
+}
+
+.tasks-container {
+  width: 100%;
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.task-list-item {
+  width: 100%;
+  height: 70px;
+  background-color: #1a171d;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  justify-content: space-between;
+}
+
+.task-para {
+  font-size: 25px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+
+.tag-para {
+  height: 35px;
+  border-radius: 20px;
+  padding: 10px;
+  color: #323f4b;
+  margin-right: 30px;
+  background-color: #f3aa4a;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.no-tasks-para {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  color: #f8f8f8;
+}
